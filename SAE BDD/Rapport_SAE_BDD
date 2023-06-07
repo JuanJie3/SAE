@@ -1,0 +1,6 @@
+tous d'abord nous avons etudier tout les documents a disposition
+(https://www.kaggle.com/c/titanic/data et la fiche du déroulement du projet)
+
+puis durant la phase 1 nous avons etudier la table titanic pour mieux comprendre le rôle de chaque colone et écrit un rapport donnant les attributs, la cardinalité et le degrés de titanic.
+
+suite a cela nous avons commencer la phase 2 ou nous avons séparer a en deux le travail Juan fesant les document.txt et Frédéric le script permettant de créer les tables. Nous avons séparer la table titanic en 3 partie différente CLIENT, TICKET et SURVIVANTS puis nous avons rediger un rapport en commun pour conclure.

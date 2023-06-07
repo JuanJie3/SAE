@@ -1,0 +1,36 @@
+set datestyle to "ISO , DMY";
+
+drop table CLIENTS;
+drop table TICKETS;
+drop table SURVIVANTS;
+
+
+create Table CLIENTS
+(	PassengerId integer primary key, 
+	Name varchar(100) ,
+	Sex varchar(10) ,
+	Age varchar(5));
+
+create Table TICKETS
+(	PassengerId integer primary key,
+	Pclass varchar(1) ,
+	Ticket varchar(25) ,
+	Fare float(10) ,
+	Embarked varchar(1) ,
+	Cabin varchar(15)   );
+
+create Table SURVIVANTS
+(	PassengerId integer primary key, 
+	Survived BOOLEAN ,
+	Name varchar(100) ,
+	SibSp integer ,
+	Parch integer   );
+
+  
+\copy CLIENTS from /home/student/905/12100862/Téléchargements/Clients.txt
+
+\copy TICKETS from /home/student/905/12100862/Téléchargements/Tickets.txt
+
+\copy SURVIVANTS from /home/student/905/12100862/Téléchargements/Survivant.txt
+
+
