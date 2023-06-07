@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    color: #000000;
+    background-image:url(https://cdn.discordapp.com/attachments/966413879922024529/988069089694085150/unknown.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titre{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 100px;
+    color: #9e131b;
+    font-family: verdana;
+}
+
+#div-titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#div-titre>h3{
+    text-align: center;
+}
+.centrer{
+    display:flex;
+    justify-content: center;
+    font-family: verdana;
+}
+
+#liste{
+    display: flex;
+
+}
+#lisCand{
+    margin-right: 100px;
+}
+
+#im{
+    margin-top:30px;
+    width : 400px;
+    height: 250px;
+	
+}
+.cadrage {
+    width: 80%;
+    text-align: left;
+}
+
+#passage {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+}
+#inter {
+    font-family: verdana;
+    font-size : 17px;
+}
+#int{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.imgC {
+    height : 300px;
+    width : 280px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+}
+
+
+
+.nom{
+    color: #000000;
+    text-decoration:none;
+    margin-right: 200px;
+}
+
+.nom:hover {
+    color: blue;
+}
+
+#dia-fleches span
+{
+	position: absolute;
+	top: 200px;
+	font-size: 30px;
+	font-family: sans;
+	background-color: rgba(0,0,0,.4);
+	color: #bbb;
+	padding: .1em;
+	/* Le pointeur de la souris */
+	cursor: pointer;
+}
+#dia-gauche
+{
+	left: 0;	
+}
+#dia-droite
+{
+	right: 0;
+}
+#dia-fleches span:hover
+{
+	color: #fff;	
+}
+
+.showed {
+    display:block;
+}
+
+.hided {
+    display:none;
+}
+
+li{
+    font-size: 19px;
+}
+#prix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.candidat>div{
+    display: flex;
+    align-items: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,95 @@
+html{
+    scroll-behavior: smooth;
+    background-image:url(https://cdn.discordapp.com/attachments/966413879922024529/988069089694085150/unknown.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+header{
+    margin: 0;
+}
+.nom{
+    color: black;
+    font-family: verdana;
+}
+#equipe{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+#photoequipe{
+    margin-top: 100px;
+    width: 1200px;
+    width: 540px;
+}
+#listeNom{
+    display: flex;
+}
+#listeNom>ul{
+    margin-left: 300px;
+}
+.nom{
+    font-size: 20px;
+    text-decoration:none;
+}
+.nom:hover {
+    color: blue;
+}
+
+ul{
+  list-style-type: none;
+}
+
+#membre1{
+    width: 216px;
+    height: 368px;
+    margin-left: 180px;
+}
+#membre2{
+    width: 208px;
+    height: 460px;
+}
+#pas{
+    margin-left: 200px;
+}
+
+#membre3{
+    width: 345px;
+    height: 460px;
+    margin-left: 180px;
+}
+#membre4{
+    width: 214px;
+    height: 330px;
+    margin-right: 150px;
+}
+#membre5{
+    width: 375px;
+    height: 478px;
+    margin-right: 250px;
+}
+#membre6{
+    width: px;
+    height: 413px;
+    margin-left: 180px;
+}
+.membre{
+    display: flex;
+    justify-content: center;
+}
+
+.membre>p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
