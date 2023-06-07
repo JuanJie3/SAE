@@ -1,0 +1,117 @@
+body{
+    background-color: papayawhip;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    box-shadow: 2px 2px 12px rgb(255, 255, 255);
+    padding: 0px 5%;
+    font-size: 30px;
+    min-width: auto;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family:'The Nautigal', cursive;
+    color: white;
+    font-style: 30px;
+    font-weight: 700;
+}
+.logo{
+    font-family: 'The Nautigal', cursive;
+    color: white;
+    font-size: 40px;
+}
+img{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    height: 980px;
+}
+.texte1{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-family: 'The Nautigal', cursive;
+    font-weight: 700;
+    font-size: 50px;
+}
+.texte2{
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-family: 'The Nautigal', cursive;
+    font-weight: 700;
+    font-size: 50px;
+}
+.texte3{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-family: 'The Nautigal', cursive;    
+    font-weight: 700;
+    font-size: 50px;
+}
+.texte4{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-family: 'The Nautigal', cursive;    
+    font-weight: 700;
+    font-size: 50px;
+}
+.texte5{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-family: 'The Nautigal', cursive;    
+    font-weight: 700;
+    font-size: 50px;
+}
+.texte6{
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-family: 'The Nautigal', cursive;   
+    font-weight: 700;
+    font-size: 50px;
+}
+.trait1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'The Nautigal', cursive;   
+    font-weight: 700;
+    font-size: 50px;
+}
+.trait2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'The Nautigal', cursive;   
+    font-weight: 700;
+    font-size: 50px;
+}
+.trait3{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'The Nautigal', cursive;   
+    font-weight: 700;
+    font-size: 50px;
+}
+

@@ -1,0 +1,156 @@
+.black{
+    height: auto;
+    background-color: grey;
+
+}
+img{
+    filter: blur(4px);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 650px;
+}
+h1{
+    text-align: left;
+    color: white;
+    font-family: 'The Nautigal', cursive;
+    font-size: xx-large;
+}
+h2{
+    text-align: center;
+    font-family: 'The Nautigal', cursive;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: large;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    box-shadow: 2px 2px 12px rgb(255, 255, 255);
+    padding: 0px 5%;
+    font-size: 30px;
+    min-width: auto;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family:'The Nautigal', cursive;
+    color: white;
+    font-style: 30px;
+    font-weight: 700;
+}
+.logo{
+    font-family: 'The Nautigal', cursive;
+    color: white;
+    font-size: 40px;
+}
+.active{
+    font-weight: bold;
+    color: white;
+}
+.container-fluid{
+    position: relative;
+    text-align: center;
+    color:  black;
+}
+.texte_centrer1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.texte_centrer2{
+    position: absolute;
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'The Nautigal', cursive;
+    font-weight: 700;
+    font-size: 80px;
+}
+.texte_centrer3{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: x-large;
+}
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: x-large;
+    background: transparent;
+    border-color: white;
+}
+.quand{
+    position: absolute;
+    top: 110%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: bold 700;
+    font-size: xx-large;
+    font-family: 'The Nautigal', cursive;
+}
+.quoi{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold 700;
+    font-size: xx-large;
+    font-family: 'The Nautigal', cursive;
+}
+.ou{
+    position: absolute;
+    top: 110%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-weight: bold 700;
+    font-size: xx-large;
+    font-family: 'The Nautigal', cursive;
+}
+.quand_text{
+    position: absolute;
+    top: 120%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: bold 700;
+    font-size: large;
+
+}
+.quoi_text{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold 700;
+    font-size: large;
+}
+.ou_text{
+    position: absolute;
+    top: 120%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-weight: bold 700;
+    font-size: large;
+}
+.grey{
+    height: auto;
+    background-color: grey;
+}
